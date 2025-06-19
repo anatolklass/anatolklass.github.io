@@ -13,32 +13,22 @@ header {
 }
 
 nav {
-    display: flex;
-    justify-content: center; /* Center the navigation items */
-    margin: 20px 0; /* Add some margin for spacing */
+    text-align: center; /* Center the navigation */
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
 }
 
 nav ul li {
+    display: inline; /* Display list items inline */
     margin: 0 15px; /* Space between the buttons */
 }
 
 nav ul li a {
-    color: #E6E6FA;
-    text-decoration: none;
-    padding: 10px 15px; /* Add padding for a button-like appearance */
-    border: 1px solid #007bff; /* Optional: Add a border */
-    border-radius: 5px; /* Optional: Rounded corners */
-    transition: background-color 0.3s; /* Optional: Smooth transition */
-}
-
-nav ul li a:hover {
-    background-color: #E6E6FA; /* Change background on hover */
-    color: black; /* Change text color on hover */
+    color: black; /* Set text color to black */
+    text-decoration: none; /* Remove underline */
 }
 
 section {

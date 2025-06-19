@@ -12,19 +12,33 @@ header {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: center; /* Center the navigation items */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0 15px; /* Space between the buttons */
 }
 
 nav ul li a {
     color: #E6E6FA;
     text-decoration: none;
+    padding: 10px 15px; /* Add padding for a button-like appearance */
+    border: 1px solid #007bff; /* Optional: Add a border */
+    border-radius: 5px; /* Optional: Rounded corners */
+    transition: background-color 0.3s; /* Optional: Smooth transition */
+}
+
+nav ul li a:hover {
+    background-color: #E6E6FA; /* Change background on hover */
+    color: white; /* Change text color on hover */
 }
 
 section {
